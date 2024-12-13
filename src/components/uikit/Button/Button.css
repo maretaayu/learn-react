@@ -1,0 +1,17 @@
+.btn {
+  padding: 1rem 2rem;
+}
+
+.primary {
+  background-color: blue;
+  color: white;
+}
+
+.primary:hover {
+  background-color: blueviolet;
+}
+
+.secondary {
+  background-color: antiquewhite;
+  color: red;
+}
