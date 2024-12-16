@@ -1,3 +1,5 @@
+import { CounterComponent } from "./CounterComponent";
+
 function Homepage() {
   return (
     <>
@@ -7,6 +9,7 @@ function Homepage() {
         alt="Coder"
       />
       <p>Mau belajar apa hari ini?</p>
+      <CounterComponent />
     </>
   );
 }

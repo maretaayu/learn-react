@@ -4,6 +4,10 @@
   width: 100%;
   background: rgba(120, 255, 253, 0.2);
 }
+
+.flex {
+  display: flex;
+}
 .header ul {
   display: flex;
   gap: 2rem;
