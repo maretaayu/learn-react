@@ -1,0 +1,19 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(120, 255, 253, 0.2);
+}
+.header ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  color: white;
+}
