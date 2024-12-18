@@ -4,8 +4,9 @@ import { Header } from "./components/ui/Header";
 import { Homepage } from "./components/ui/Homepage";
 import { Users } from "./components/ui/Users";
 import { Routes, Route } from "react-router-dom";
-import { useRoutes } from "react-router-dom";
 import { ProtectedRoutes } from "./components/ui/ProtectedRoutes";
+import { HStack, Box, Button, Heading } from "@chakra-ui/react";
+
 function App() {
   // let element = useRoutes([
   //   {
@@ -34,6 +35,14 @@ function App() {
   return (
     <>
       <Header />
+      <Button variant="outline">Button Teal</Button>
+      <Box bgColor="red.100" md={{ bgColor: "blue.500" }}>
+        <Heading as="h2">Chakra UI</Heading>
+      </Box>
+      <HStack>
+        <Button>Click me</Button>
+        <Button>Click me</Button>
+      </HStack>
       {/* {element} */}
       <Routes>
         <Route path="/" element={<Homepage />} />
