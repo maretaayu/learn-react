@@ -2,7 +2,7 @@ import { Box, Button, Heading, Image, Text } from "@chakra-ui/react";
 
 function CardComponent() {
   return (
-    <Box p={4} bgColor="white" color="white" borderRadius="2xs">
+    <Box p={4} bgColor="blue.600" color="white" borderRadius="2xs">
       <Image
         src="https://www.mareta.space/images/PortoUIUX.svg"
         w="full"
