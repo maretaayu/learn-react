@@ -1,11 +1,12 @@
 // import "./App.css";
-import { DetailUser } from "./components/ui/DetailUser";
-import { Header } from "./components/ui/Header";
-import { Homepage } from "./components/ui/Homepage";
-import { Users } from "./components/ui/Users";
-import { Routes, Route } from "react-router-dom";
-import { ProtectedRoutes } from "./components/ui/ProtectedRoutes";
-import { HStack, Box, Button, Heading } from "@chakra-ui/react";
+// import { DetailUser } from "./components/ui/DetailUser";
+// import { Header } from "./components/ui/Header";
+// import { Homepage } from "./components/ui/Homepage";
+// import { Users } from "./components/ui/Users";
+// import { Routes, Route } from "react-router-dom";
+// import { ProtectedRoutes } from "./components/ui/ProtectedRoutes";
+// import { HStack, Box, Button, Heading } from "@chakra-ui/react";
+import { CardComponentContainer } from "./components/uikit/CardComponent/CardComponentContainer";
 
 function App() {
   // let element = useRoutes([
@@ -34,7 +35,8 @@ function App() {
   // ]);
   return (
     <>
-      <Header />
+      <CardComponentContainer />
+      {/* <Header />
       <Button variant="outline">Button Teal</Button>
       <Box bgColor="red.100" md={{ bgColor: "blue.500" }}>
         <Heading as="h2">Chakra UI</Heading>
@@ -42,14 +44,12 @@ function App() {
       <HStack>
         <Button>Click me</Button>
         <Button>Click me</Button>
-      </HStack>
+      </HStack> */}
       {/* {element} */}
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="users" element={<Users />}>
           <Route path=":username" element={<DetailUser />} />
-          {/* <Route path="levi" element={<p>ini halaman levi</p>} /> */}
-          {/* <Route path="mareta" element={<p>ini halaman mareta</p>} /> */}
         </Route>
         <Route
           path="profile"
@@ -59,7 +59,7 @@ function App() {
             </ProtectedRoutes>
           }
         />
-      </Routes>
+      </Routes> */}
     </>
   );
 }
