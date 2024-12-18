@@ -3,7 +3,7 @@ import { Flex } from "@chakra-ui/react";
 
 export function CardComponentContainer() {
   return (
-    <Flex gap={4} sm={{ gap: 8 }}>
+    <Flex gap={4} wrap="nowrap" lg={{ gap: 8, flexWrap: "nowrap" }}>
       <CardComponent />
       <CardComponent />
       <CardComponent />
