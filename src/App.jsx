@@ -7,6 +7,7 @@
 // import { ProtectedRoutes } from "./components/ui/ProtectedRoutes";
 // import { HStack, Box, Button, Heading } from "@chakra-ui/react";
 import { CardComponentContainer } from "./components/uikit/CardComponent/CardComponentContainer";
+import { MessageCounterContainer } from "./components/uikit/Message/MessageCounterContainer";
 
 function App() {
   // let element = useRoutes([
@@ -35,6 +36,7 @@ function App() {
   // ]);
   return (
     <>
+      <MessageCounterContainer />
       <CardComponentContainer />
       {/* <Header />
       <Button variant="outline">Button Teal</Button>
